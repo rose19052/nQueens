@@ -22,6 +22,7 @@ def fitness(queens, start_time):
 
     for r in rows:
         conflicts = conflicts + (r * (r - 1) / 2)       # complete graph
+    print("Number of conflicts so far: ", conflicts)
 
     for i in range(0, len(diag1)):
         conflicts = conflicts + (diag1[i] * (diag1[i] - 1) / 2)  # complete graph
