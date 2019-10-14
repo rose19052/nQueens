@@ -3,7 +3,7 @@ import time
 
 def fitness(queens, start_time):
     length = len(queens)
-
+    print("Start time is : ",start_time)
     conflicts = 0                   # number of pieces attacked
     rows = [0] * length
     diag1 = [0] * length * 2
