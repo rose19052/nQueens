@@ -13,6 +13,7 @@ def sort():
 
 
 def initialize(total):
+    n = n*1
     queens = [0] * n
     queenpop.clear()
     while total > 0:
